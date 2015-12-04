@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA93A17D1C10B90D0050D0A0 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93A17C1C10B90D0050D0A0 /* GameView.swift */; };
+		FA93A17F1C113EFA0050D0A0 /* DropPlayBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93A17E1C113EFA0050D0A0 /* DropPlayBehavior.swift */; };
 		FAA5B4A41C1087EE00D1C07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5B4A31C1087EE00D1C07A /* AppDelegate.swift */; };
-		FAA5B4A61C1087EE00D1C07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5B4A51C1087EE00D1C07A /* ViewController.swift */; };
 		FAA5B4A91C1087EE00D1C07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5B4A71C1087EE00D1C07A /* Main.storyboard */; };
 		FAA5B4AB1C1087EE00D1C07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5B4AA1C1087EE00D1C07A /* Assets.xcassets */; };
 		FAA5B4AE1C1087EE00D1C07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5B4AC1C1087EE00D1C07A /* LaunchScreen.storyboard */; };
+		FAA5B4B61C108D7300D1C07A /* DropPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5B4B51C108D7300D1C07A /* DropPlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA93A17C1C10B90D0050D0A0 /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		FA93A17E1C113EFA0050D0A0 /* DropPlayBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropPlayBehavior.swift; sourceTree = "<group>"; };
 		FAA5B4A01C1087EE00D1C07A /* DropPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA5B4A31C1087EE00D1C07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA5B4A51C1087EE00D1C07A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA5B4A81C1087EE00D1C07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAA5B4AA1C1087EE00D1C07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA5B4AD1C1087EE00D1C07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA5B4AF1C1087EE00D1C07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5B4B51C108D7300D1C07A /* DropPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropPlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		FAA5B4A21C1087EE00D1C07A /* DropPlay */ = {
 			isa = PBXGroup;
 			children = (
-				FAA5B4A31C1087EE00D1C07A /* AppDelegate.swift */,
-				FAA5B4A51C1087EE00D1C07A /* ViewController.swift */,
+				FAA5B4B51C108D7300D1C07A /* DropPlayViewController.swift */,
+				FA93A17E1C113EFA0050D0A0 /* DropPlayBehavior.swift */,
+				FA93A17C1C10B90D0050D0A0 /* GameView.swift */,
 				FAA5B4A71C1087EE00D1C07A /* Main.storyboard */,
+				FAA5B4A31C1087EE00D1C07A /* AppDelegate.swift */,
 				FAA5B4AA1C1087EE00D1C07A /* Assets.xcassets */,
 				FAA5B4AC1C1087EE00D1C07A /* LaunchScreen.storyboard */,
 				FAA5B4AF1C1087EE00D1C07A /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA5B4A61C1087EE00D1C07A /* ViewController.swift in Sources */,
+				FA93A17F1C113EFA0050D0A0 /* DropPlayBehavior.swift in Sources */,
 				FAA5B4A41C1087EE00D1C07A /* AppDelegate.swift in Sources */,
+				FA93A17D1C10B90D0050D0A0 /* GameView.swift in Sources */,
+				FAA5B4B61C108D7300D1C07A /* DropPlayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				FAA5B4B41C1087EE00D1C07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
